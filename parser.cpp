@@ -14,7 +14,7 @@ double bin3(std::string word); //outlet temp
 double bin4(std::string word); //pressure
 
 
-package parser(std::string filename, int repeat)
+package parser(std::string filename)
 {
     // File pointer
     fstream fin;
