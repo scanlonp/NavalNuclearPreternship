@@ -27,7 +27,8 @@ int main(){
 			thefile << val << ",";
 		}
 		thefile << "\n";
-		
+	}
+	for(int j = 0; j<8; ++j){
 		lower = 270;
 		upper = 650;
 		for(unsigned int i = 0; i < numCols; ++i){
@@ -36,17 +37,19 @@ int main(){
 			thefile << val << ",";
 		}
 		thefile << "\n";
-
-		lower = 270;
-		upper = 650;
+	}
+	for (int j = 0; j<8; ++j){
+		lower = 234;
+		upper = 334;
 		for(unsigned int i = 0; i < numCols; ++i){
 			double val;
 			val = ((double)rand() / RAND_MAX) * (upper - lower) +lower;
 			thefile << val << ",";
 		}
 		thefile << "\n";
-
-		
+	}
+	
+	for (int j = 0; j<8; ++j){	
 		lower = 6.4;
 		upper = 7.4;
 		for(unsigned int i = 0; i < numCols; ++i){
@@ -58,7 +61,7 @@ int main(){
 
 	}
 	
-	lower = 20;
+	lower = 5;
 	upper = 100;
 	for(unsigned int i = 0; i < numCols; ++i){
 		double val;
