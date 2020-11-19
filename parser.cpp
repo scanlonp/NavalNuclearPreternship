@@ -5,7 +5,7 @@ struct package{
   int array2[22];
   int array3[12];
   int array4[12];
-  float power[10];
+  double power[10];
 };
 
 double bin1(std::string word); //capacity
