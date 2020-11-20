@@ -3,6 +3,7 @@
 void emergency(int i){
   if (i = 1)
     std::cout << "WARNING: pump capacity is too high." << std::endl;
+    
   else if (i = 2)
     std::cout << "WARNING: pump capacity is too low" << std::endl;
   else if (i = 3)
